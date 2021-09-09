@@ -1,0 +1,172 @@
+.header
+{
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.body
+{
+  background-color: cadetblue;
+}
+
+
+.topnav
+{
+    font-size: 0.95rem;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  .topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .topnav li a:hover {
+    background-color: #111;
+  }
+
+  .footer
+  {
+      font-size: 0.75rem;
+      overflow: hidden;
+      background-color:black;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+  
+  .footer ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .footer li {
+      float: left;
+      width: 16.66%;
+      border-right: 1px solid #bbb;
+    }
+    
+    .footer li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    .footer li a:hover {
+      background-color: #111;
+    }
+
+    .center
+    {
+        text-align: center;
+        margin: auto;
+        width: 50%;
+    }
+
+    input, textarea
+    {
+        width: 50%;
+        padding: 10px 10px;
+        margin: 5px 0;
+        box-sizing: border-box;
+    }
+
+    form
+    {
+        margin-bottom: 20px;
+    }
+
+    .footerx2
+    {
+        font-size: 0.75rem;
+        overflow: hidden;
+        background-color:black;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .footerx2 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .footerx2 li {
+        float: left;
+        width: 16.66%;
+        border-right: 1px solid #bbb;
+      }
+      
+      .footerx2 li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 5px 5px;
+        text-decoration: none;
+      }
+
+      /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.video
+{
+  text-align: center;
+}
+
+@media screen and (max-width: 600px)
+{
+    .column
+    {
+        width: 100%;
+    }
+}
+
+
+
